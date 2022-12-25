@@ -36,75 +36,9 @@
 			</div>
 		</div>
 	</div>
-	
-
-	<!-- 
-
-	<div class="container" id="app">
-		<div class="row">
-			<div class="col-12">
-				<h1>Simple note app</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<div id="newtask">
-					<input type="text" placeholder="Your note goes here..."/>
-					<button id="push" class="btn btn-success">Add</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="container" id="app">
-		<div class="row">
-			<div class="col-12">
-				<h1>Simple note app</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12" v-show="!editingNote.id">
-				<div class="form-group">
-					<label for="note">Add new note</label>
-					<textarea placeholder="Your note goes here..." ref="textarea" v-model="newNote.note"
-						class="form-control" id="note" rows="3"></textarea>
-				</div>
-				<div class="form-group">
-					<button @click="saveNote()" class="btn btn-success">Save</button>
-				</div>
-			</div>
-			<div class="col-12" v-show="editingNote.id">
-				<h2>Editing note</h2>
-				<div class="form-group">
-					<label>Note:</label>
-					<textarea placeholder="Your note goes here..." v-model="editingNote.note" class="form-control"
-						rows="3"></textarea>
-				</div>
-				<div class="form-group">
-					<button @click="saveEditingNote()" class="btn btn-success">Save</button>
-					<button @click="cancelEdit()" class="btn btn-warning">Cancel</button>
-				</div>
-			</div>
-			<div class="col-12">
-				<div class="form-group">
-					<label for="color">Choose a color:</label>
-					<input id="color" type="color" v-model="color" @change="onColorChanged()">
-				</div>
-			</div>
-			<div v-for="note in notes" class="col-12 alert note" :style="{'background-color':  color}">
-				<h3>{{note.note}}</h3>
-				<h5>{{note.time | toLocaleDateString}}</h5>
-				<button @click="editNote(note)" class="btn btn-warning">Edit</button>
-				<button @click="deleteNote(note)" class="btn btn-danger">Delete</button>
-			</div>
-		</div>
-	</div>
-	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 		crossorigin="anonymous"></script>
-		-->
 		<script src="./assets/js/scripts.js"></script>
 </body>
 
